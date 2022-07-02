@@ -13,7 +13,7 @@ spec:
         app: action-deployment-name
     spec:
       containers:
-      - image: swr.cn-north-4.myhuaweicloud.com/hcloudcli/ccidemo:cdb1d2d867b97ea1fae088411bd73e0cc9c1dc52
+      - image: swr.cn-north-4.myhuaweicloud.com/swr-lizy2/tomcat:maven-samp-3cf451e
         name: container-0
         ports:
         - containerPort: 80

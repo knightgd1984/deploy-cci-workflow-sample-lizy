@@ -53,7 +53,7 @@ jobs:
           secret_key: ${{ secrets.SECRETACCESSKEY }}
           project_id: ${{env.PROJECT_ID}}
           region: ${{ env.REGION_ID }}
-          namespace: action-namespace-name
+          namespace: cci-namespace-66685301
           deployment: action-deployment-name
           image: ${{ steps.build-image.outputs.image }}
 
