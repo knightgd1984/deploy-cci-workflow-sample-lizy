@@ -1,4 +1,4 @@
-name: Deploy CCI Actions Demo
+name: Deploy CCI Actions Demo2
 on:
   push:
     branches:
