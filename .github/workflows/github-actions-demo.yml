@@ -54,7 +54,7 @@ jobs:
           project_id: ${{env.PROJECT_ID}}
           region: ${{ env.REGION_ID }}
           namespace: cci-namespace-66685301
-          deployment: action-deployment-name
+          deployment: action-deployment-name-lizy2
           image: ${{ steps.build-image.outputs.image }}
 
 
